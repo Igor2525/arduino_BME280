@@ -42,7 +42,7 @@ void loop() {
   if (i>3) i=0;
   if (butt1.isClick()) i=i+1 ;
   if (butt2.isClick()) i=i-1 ;
-    myOLED.printNumI(i,RIGHT,55);
+    myOLED.printNumI(i,RIGHT,45);
     myOLED.update();
     if(i==0){
       myOLED.clrScr();
